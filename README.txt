@@ -15,7 +15,7 @@ The program takes 3 inputs or arguments:
 	3. The choice of method used to train the model
 
 In order to compile the source, run:
-$> g++ WordSegmenter.cpp -o WordSegmenter
+$> g++ CRFWordSegmenter.cpp -o WordSegmenter
 
 In order to run the code, 
 $> ./ WordSegmenter train_set_60k.txt test_set_6k.txt [c|d]
