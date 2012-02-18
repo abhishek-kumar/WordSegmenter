@@ -11,8 +11,8 @@ While evaluation, the best word level accuracy achieved using this model, on a s
 RUNNING
 The program takes 3 inputs or arguments:
   1. The training set
-	2. The test set to evaluate the model
-	3. The choice of method used to train the model
+  2. The test set to evaluate the model
+  3. The choice of method used to train the model
 
 In order to compile the source, run:
 $> g++ CRFWordSegmenter.cpp -o WordSegmenter
