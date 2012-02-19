@@ -87,7 +87,7 @@ TABLE OF CONTENTS
    parameter file: This should be the file obtained after training.
                        The file 'data/w.data' is the file we provide
                        after our training.
-7. ADDITIONAL COMMENTS
+7. ADDITIONAL REMARKS
    The hyphenation task has a high accuracy, but in terms of recall. 
    The precision still needs improvement. So, when you run the WordSegmenter, 
    you will find that it places hyphens correctly at locations which
