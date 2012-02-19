@@ -97,16 +97,8 @@ TABLE OF CONTENTS
 
    A further description of the tool can be found here:
    http://dl.dropbox.com/u/3091691/Papers/WordSyllabificationUsingCRF.pdf
-RUNNING
 
-The program takes 3 inputs or arguments:
-  1. The training set
-  2. The test set to evaluate the model
-  3. The choice of method used to train the model
-
-In order to compile the source, run:
-$> g++ CRFWordSegmenter.cpp -o WordSegmenter
-
-In order to run the code, 
-$> ./ WordSegmenter train_set_60k.txt test_set_6k.txt [c|d]
-where c stands for collin's perceptron method, while d stands for contrastive divergence.
+   In order to hyphenate many words, you would need to pass these
+   words to the standard input of the program, separated by a newline.
+   Another way to pass words is to use the second argument
+     $> ./bin/WordSegmenter ./data/w.data yourwordgoeshere
